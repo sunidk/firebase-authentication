@@ -1,0 +1,20 @@
+{
+  "name": "firebase-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase": "^8.10.1",
+    "firebase-admin": "^13.2.0",
+    "nodemon": "^3.1.9"
+  }
+}
